@@ -50,8 +50,8 @@
 ```
 ### Options
 |  Option |  Type | Default | Description |
-| ------------ | ------------ | ------------ | ------------ |
-| `container`  | `string` or `jQuery element`   | `data-target-container` attribure value| Define tabs container
+| --- | --- | --- | --- |
+| `container`  | `string` or `jQuery element` | `data-target-container` attribure value| Define tabs container
 | `break_point`  | `intiger`  | 764 | Default breakpoint window width to conver tabs to collapse
 | `active_tab_index`  | `intiger`   | 0 | Default active content item index number (e.g. - Index number will start from 0)
 
