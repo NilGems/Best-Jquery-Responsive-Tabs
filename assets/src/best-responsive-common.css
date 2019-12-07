@@ -1,0 +1,14 @@
+.best-responsive-tab, .best-responsive-tab *{
+    box-sizing: border-box;
+}
+
+.best-responsive-tab:not(.init),
+.best-responsive-tab-contents:not(.init){
+    opacity: 0;
+    visibility: hidden;
+}
+.best-responsive-tab.init,
+.best-responsive-tab-contents.init{
+    opacity: 1;
+    visibility: show;
+}
