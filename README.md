@@ -48,7 +48,7 @@
 
 |  Option |  Type | Default | Description |
 | --- | --- | --- | --- |
-| `container`  | `string` or `jQuery element` | `data-target-container` attribure value| Define tabs container |
+| `container`  | `string` or `element` | `data-target-container` attribure value| Define tabs container |
 | `break_point`  | `intiger`  | 764 | Default breakpoint window width to conver tabs to collapse |
 | `active_tab_index`  | `intiger`   | 0 | Default active content item index number (e.g. - Index number will start from 0) |
 
@@ -88,6 +88,10 @@
 
 |  Event | Description |
 | --- | --- |
-| `lgTabItem:toogle` | This event fires on tab show, but before the new tab has been shown. Use `event`,`previous_items` and `current_items` as per your requirment. `previous_items` and `current_items` are a object of `tabs` element. You can get object following object keys from both of variables 1.`tab` 2.`desktop_tab_panel` 3.`mobile_tab_panel` |
+| `lgTabItem:toogle` | This event fires on tab show, but before the new tab has been shown. Use `event`,`previous_items` and `current_items` as per your requirment. `previous_items` and `current_items` are a object of `tabs` element. You can get object following object keys from both of variables 
+1. `tab` 
+2. `desktop_tab_panel` 
+3. `mobile_tab_panel` 
+|
 
 ![](https://repository-images.githubusercontent.com/226507502/92268c80-191c-11ea-8154-6ed683b710cb)
