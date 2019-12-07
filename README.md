@@ -120,6 +120,6 @@ $('#myExampleBestResponsiveTab1').on('lgTabItem:toogle', function(event, previou
 ```
 ### Live preview
 
-Click to link to get preview - [Live preview](https://codepen.io/nilgems/full/mdyeKWJ)
+Click to link to get preview: [Live preview](https://codepen.io/nilgems/full/mdyeKWJ)
 
 ![](https://repository-images.githubusercontent.com/226507502/92268c80-191c-11ea-8154-6ed683b710cb)
