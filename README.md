@@ -9,8 +9,8 @@
 
 ### Getting start
 #### CDN
-- CSS: https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.css
-- JavaScript: https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.js
+- CSS: [https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.css](https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.css)
+- JavaScript: [https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.js](https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.js)
 #### HTML
 ```html
 <!Doctype html>
