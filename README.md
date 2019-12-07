@@ -125,4 +125,8 @@ $('#myExampleBestResponsiveTab1').on('lgTabItem:toogle', function(event, previou
 
 Click to link to get preview: [Live preview](https://codepen.io/nilgems/full/mdyeKWJ)
 
+### Author
+
+- Niladri Shekhar Mondal *- Initial work* -[Pixel Solutionz](https://pixelsolutionz.com)
+
 ![](https://repository-images.githubusercontent.com/226507502/92268c80-191c-11ea-8154-6ed683b710cb)
