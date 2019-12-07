@@ -8,6 +8,9 @@
 - No more restriction to place tabs navigator and content in same Wrapper
 
 ### Getting start
+#### CDN
+- CSS: [https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.css](https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.css)
+- JavaScript: [https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.js](https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.js)
 #### HTML
 ```html
 <!Doctype html>
@@ -16,8 +19,8 @@
 		.....
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="dist/best-responsive.js"></script>
-		<link rel="stylesheet" href="src/best-responsive.css"/>
+		<script src="https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.css"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.css"/>
 		.....
 	</head>
 	<body>
@@ -121,5 +124,9 @@ $('#myExampleBestResponsiveTab1').on('lgTabItem:toogle', function(event, previou
 ### Live preview
 
 Click to link to get preview: [Live preview](https://codepen.io/nilgems/full/mdyeKWJ)
+
+### Author
+
+- Niladri Shekhar Mondal *- Initial work* -[Pixel Solutionz](https://pixelsolutionz.com)
 
 ![](https://repository-images.githubusercontent.com/226507502/92268c80-191c-11ea-8154-6ed683b710cb)
