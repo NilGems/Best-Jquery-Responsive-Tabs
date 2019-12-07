@@ -7,10 +7,6 @@
 - Fully customizable
 - No more restriction to place tabs navigator and content in same Wrapper
 
-**Table of Contents**
-
-[TOC]
-
 ### Getting start
 #### HTML
 ```html
@@ -57,9 +53,33 @@
 | `active_tab_index`  | `intiger`   | 0 | Default active content item index number (e.g. - Index number will start from 0) |
 
 #### Example to set options
+##### Define container by Element ID
 ```js
 	$('#myExampleBestResponsiveTab1').laraGemsBestResponsiveTabs({
-		container: '#myExampleTabsContent',
+		container: '#example',
+		break_point: 764,
+		active_tab_index: 0
+	});
+```
+##### Define container by Element Class
+```js
+	$('#myExampleBestResponsiveTab1').laraGemsBestResponsiveTabs({
+		container: '.example',
+		break_point: 764,
+		active_tab_index: 0
+	});
+```
+##### Define container by jQuery Element
+```js
+	$('#myExampleBestResponsiveTab1').laraGemsBestResponsiveTabs({
+		container: $('#example'),
+		break_point: 764,
+		active_tab_index: 0
+	});
+```
+```js
+	$('#myExampleBestResponsiveTab1').laraGemsBestResponsiveTabs({
+		container: $('.example'),
 		break_point: 764,
 		active_tab_index: 0
 	});
@@ -68,6 +88,6 @@
 
 |  Event | Description | Example |
 | --- | --- | --- |
-| ```lgTabItem:toogle``` | ```lgTabItem:toogle``` will trigger when a tab shown | ``` $('#myExampleBestResponsiveTab1').on('lgTabItem:toogle', function(event, previous_items, current_items){ __ Your code __ }) ``` |
+| `lgTabItem:toogle` | This event fires on tab show, but before the new tab has been shown. Use `event`,`previous_items` and `current_items` as per your requirment. `previous_items` and `current_items` are a object of `tabs` element. You can get object following object keys from both of variables - `tab` -`desktop_tab_panel` - `mobile_tab_panel` | `$('#myExampleBestResponsiveTab1').on('lgTabItem:toogle', function(event, previous_items, current_items){ __ Your code __ })` |
 
 ![](https://repository-images.githubusercontent.com/226507502/92268c80-191c-11ea-8154-6ed683b710cb)
