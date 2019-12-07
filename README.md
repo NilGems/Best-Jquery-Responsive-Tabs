@@ -13,7 +13,7 @@
 
 ### Getting start
 #### HTML
-```
+<code>
 <!Doctype html>
 <html>
 	<head>
@@ -39,13 +39,13 @@
 		....
 	</body>
 </html>
-```
+</code>
 #### Use plugin
-```
+<code>
 (function($){
 	$(function(){
 		$('#myExampleBestResponsiveTab1').laraGemsBestResponsiveTabs();
 	});
 })(jQuery);
-```
+</code>
 ![](https://repository-images.githubusercontent.com/226507502/92268c80-191c-11ea-8154-6ed683b710cb)
