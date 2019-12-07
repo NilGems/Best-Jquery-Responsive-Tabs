@@ -8,6 +8,9 @@
 - No more restriction to place tabs navigator and content in same Wrapper
 
 ### Getting start
+#### CDN
+- CSS: https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs/assets/dist/best-responsive.min.css
+- JavaScript: https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs/assets/dist/best-responsive.min.js
 #### HTML
 ```html
 <!Doctype html>
