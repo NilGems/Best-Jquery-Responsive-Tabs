@@ -14,7 +14,7 @@
 
 #### HTML
 
-```html
+```
 <!Doctype html>
 <html>
 	<head>
