@@ -86,8 +86,8 @@
 ```
 ### Events
 
-|  Event | Description | Example |
-| --- | --- | --- |
-| `lgTabItem:toogle` | This event fires on tab show, but before the new tab has been shown. Use `event`,`previous_items` and `current_items` as per your requirment. `previous_items` and `current_items` are a object of `tabs` element. You can get object following object keys from both of variables - `tab` -`desktop_tab_panel` - `mobile_tab_panel` | `$('#myExampleBestResponsiveTab1').on('lgTabItem:toogle', function(event, previous_items, current_items){ __ Your code __ })` |
+|  Event | Description |
+| --- | --- |
+| `lgTabItem:toogle` | This event fires on tab show, but before the new tab has been shown. Use `event`,`previous_items` and `current_items` as per your requirment. `previous_items` and `current_items` are a object of `tabs` element. You can get object following object keys from both of variables 1.`tab` 2.`desktop_tab_panel` 3.`mobile_tab_panel` |
 
 ![](https://repository-images.githubusercontent.com/226507502/92268c80-191c-11ea-8154-6ed683b710cb)
