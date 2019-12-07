@@ -27,15 +27,15 @@
 	<body>
 		....
 		<div class="best-responsive-tab" id="myExampleBestResponsiveTab1" role="tablist" data-target-content="#myExampleTabsContent">
-            <div data-target-index="0">One</div>
-            <div data-target-index="1">Two</div>
-            <div data-target-index="2">Three</div>
-        </div>
-        <div class="best-responsive-tab-contents" id="myExampleTabsContent" aria-labelledby="myExampleBestResponsiveTab">
-            <div class="best-responsive-tab-content" role="tabpanel">Content of one</div>
-            <div class="best-responsive-tab-content" role="tabpanel">Content of two</div>
-            <div class="best-responsive-tab-content" role="tabpanel">Content of three</div>
-        </div>
+		    <div data-target-index="0">One</div>
+		    <div data-target-index="1">Two</div>
+		    <div data-target-index="2">Three</div>
+		</div>
+		<div class="best-responsive-tab-contents" id="myExampleTabsContent" aria-labelledby="myExampleBestResponsiveTab">
+		    <div class="best-responsive-tab-content" role="tabpanel">Content of one</div>
+		    <div class="best-responsive-tab-content" role="tabpanel">Content of two</div>
+		    <div class="best-responsive-tab-content" role="tabpanel">Content of three</div>
+		</div>
 		....
 	</body>
 </html>
