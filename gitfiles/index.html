@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Best reponsive tabs</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script> 
+        <script src="src/best-responsive.js"></script>
+        <link rel="stylesheet" href="src/best-responsive.css"/>
+    </head>
+    <body>
+        <div class="best-responsive-tab" id="myExampleBestResponsiveTab1" role="tablist" data-target-content="#myExampleTabsContent">
+            <div data-target-index="0">One</div>
+            <div data-target-index="1">Two</div>
+            <div data-target-index="2">Three</div>
+        </div>
+        <div class="best-responsive-tab-contents" id="myExampleTabsContent" aria-labelledby="myExampleBestResponsiveTab">
+            <div class="best-responsive-tab-content" role="tabpanel">Content of one</div>
+            <div class="best-responsive-tab-content" role="tabpanel">Content of two</div>
+            <div class="best-responsive-tab-content" role="tabpanel">Content of three</div>
+        </div>
+
+        <script>
+        (function($){
+            $(function(){
+                    $('#myExampleBestResponsiveTab1').laraGemsBestResponsiveTabs({
+                        container: $('#myExampleTabsContent')
+                    });
+                    $('#myExampleBestResponsiveTab1').on('lgTabItem:toogle', function(event, previous_item, next_item){
+                        console.log('Previous item', previous_item);
+                        console.log('Next item', next_item);
+                    });
+            });
+        })(jQuery);
+        </script>
+    </body>
+</html>
