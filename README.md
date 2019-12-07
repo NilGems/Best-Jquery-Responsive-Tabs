@@ -49,10 +49,20 @@
 })(jQuery);
 ```
 ### Options
+
 |  Option |  Type | Default | Description |
 | --- | --- | --- | --- |
-| `container`  | `string` or `jQuery element` | `data-target-container` attribure value| Define tabs container
-| `break_point`  | `intiger`  | 764 | Default breakpoint window width to conver tabs to collapse
-| `active_tab_index`  | `intiger`   | 0 | Default active content item index number (e.g. - Index number will start from 0)
+| `container`  | `string` or `jQuery element` | `data-target-container` attribure value| Define tabs container |
+| `break_point`  | `intiger`  | 764 | Default breakpoint window width to conver tabs to collapse |
+| `active_tab_index`  | `intiger`   | 0 | Default active content item index number (e.g. - Index number will start from 0) |
+
+#### Example to set options
+```js
+	$('#myExampleBestResponsiveTab1').laraGemsBestResponsiveTabs({
+		container: 'myExampleTabsContent',
+		break_point: 764,
+		active_tab_index: 0
+	});
+```
 
 ![](https://repository-images.githubusercontent.com/226507502/92268c80-191c-11ea-8154-6ed683b710cb)
