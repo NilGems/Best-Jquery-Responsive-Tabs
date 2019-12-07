@@ -69,4 +69,5 @@
 |  Event | Description | Example |
 | --- | --- | --- |
 | ```lgTabItem:toogle``` | ```lgTabItem:toogle``` will trigger when a tab shown | ``` $('#myExampleBestResponsiveTab1').on('lgTabItem:toogle', function(event, previous_items, current_items){ ... }) ``` |
+
 ![](https://repository-images.githubusercontent.com/226507502/92268c80-191c-11ea-8154-6ed683b710cb)
