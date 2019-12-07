@@ -9,8 +9,8 @@
 
 ### Getting start
 #### CDN
-- CSS: https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs/assets/dist/best-responsive.min.css
-- JavaScript: https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs/assets/dist/best-responsive.min.js
+- CSS: https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.css
+- JavaScript: https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.js
 #### HTML
 ```html
 <!Doctype html>
@@ -19,8 +19,8 @@
 		.....
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="dist/best-responsive.js"></script>
-		<link rel="stylesheet" href="src/best-responsive.css"/>
+		<script src="https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.css"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/NilGems/Best-Jquery-Responsive-Tabs@1.0.1/assets/dist/best-responsive.min.css"/>
 		.....
 	</head>
 	<body>
