@@ -118,5 +118,13 @@ $('#myExampleBestResponsiveTab1').on('lgTabItem:toogle', function(event, previou
 	console.log(current_items);
 })
 ```
+### Live preview
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="nilgems" data-slug-hash="mdyeKWJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JQuery Best responsive tabs">
+  <span>See the Pen <a href="https://codepen.io/nilgems/pen/mdyeKWJ">
+  JQuery Best responsive tabs</a> by NIladri Shekhar Mondal (<a href="https://codepen.io/nilgems">@nilgems</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ![](https://repository-images.githubusercontent.com/226507502/92268c80-191c-11ea-8154-6ed683b710cb)
